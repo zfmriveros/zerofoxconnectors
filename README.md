@@ -1,10 +1,10 @@
 # ZeroFox Threat Intelligence
 
-Publisher: ZeroFox \
-Connector Version: 1.2.0 \
-Product Vendor: ZeroFox \
-Product Name: ZeroFox Threat Intelligence \
-Minimum Product Version: 6.1.1
+Publisher: ZeroFox <br>
+Connector Version: 1.2.1 <br>
+Product Vendor: ZeroFox <br>
+Product Name: ZeroFox Threat Intelligence <br>
+Minimum Product Version: 6.1.0
 
 ZeroFox Threat Intelligence
 
@@ -21,19 +21,19 @@ VARIABLE | REQUIRED | TYPE | DESCRIPTION
 
 ### Supported Actions
 
-[test connectivity](#action-test-connectivity) - Validate the asset configuration for connectivity using supplied configuration \
-[lookup domain](#action-lookup-domain) - Check for the presence of a domain in the ZeroFox Threat Intelligence Feed \
-[lookup ip](#action-lookup-ip) - Check for the presence of an IP in the ZeroFox Threat Intelligence Feed \
-[lookup exploit](#action-lookup-exploit) - Check for the presence of a exploit in the ZeroFox Threat Intelligence Feed \
-[lookup hash](#action-lookup-hash) - Check for the presence of a hash in the ZeroFox Threat Intelligence Feed \
-[lookup email](#action-lookup-email) - Lookup Email Address \
+[test connectivity](#action-test-connectivity) - Validate the asset configuration for connectivity using supplied configuration <br>
+[lookup domain](#action-lookup-domain) - Check for the presence of a domain in the ZeroFox Threat Intelligence Feed <br>
+[lookup ip](#action-lookup-ip) - Check for the presence of an IP in the ZeroFox Threat Intelligence Feed <br>
+[lookup exploit](#action-lookup-exploit) - Check for the presence of a exploit in the ZeroFox Threat Intelligence Feed <br>
+[lookup hash](#action-lookup-hash) - Check for the presence of a hash in the ZeroFox Threat Intelligence Feed <br>
+[lookup email](#action-lookup-email) - Lookup Email Address <br>
 [on poll](#action-on-poll) - Callback action for the on_poll ingest functionality
 
 ## action: 'test connectivity'
 
 Validate the asset configuration for connectivity using supplied configuration
 
-Type: **test** \
+Type: **test** <br>
 Read only: **True**
 
 #### Action Parameters
@@ -48,7 +48,7 @@ No Output
 
 Check for the presence of a domain in the ZeroFox Threat Intelligence Feed
 
-Type: **investigate** \
+Type: **investigate** <br>
 Read only: **True**
 
 #### Action Parameters
@@ -76,7 +76,7 @@ summary.total_objects_successful | numeric | | |
 
 Check for the presence of an IP in the ZeroFox Threat Intelligence Feed
 
-Type: **investigate** \
+Type: **investigate** <br>
 Read only: **True**
 
 #### Action Parameters
@@ -103,7 +103,7 @@ summary.total_objects_successful | numeric | | |
 
 Check for the presence of a exploit in the ZeroFox Threat Intelligence Feed
 
-Type: **investigate** \
+Type: **investigate** <br>
 Read only: **True**
 
 #### Action Parameters
@@ -129,7 +129,7 @@ summary.total_objects_successful | numeric | | |
 
 Check for the presence of a hash in the ZeroFox Threat Intelligence Feed
 
-Type: **investigate** \
+Type: **investigate** <br>
 Read only: **True**
 
 #### Action Parameters
@@ -155,7 +155,7 @@ summary.total_objects_successful | numeric | | |
 
 Lookup Email Address
 
-Type: **investigate** \
+Type: **investigate** <br>
 Read only: **True**
 
 Check for the presence of an email address in the ZeroFox Threat Intelligence Feed.
@@ -184,7 +184,7 @@ summary.total_objects_successful | numeric | | |
 
 Callback action for the on_poll ingest functionality
 
-Type: **ingest** \
+Type: **ingest** <br>
 Read only: **True**
 
 #### Action Parameters
@@ -203,7 +203,7 @@ ______________________________________________________________________
 
 Auto-generated Splunk SOAR Connector documentation.
 
-Copyright 2025 Splunk Inc.
+Copyright 2026 Splunk Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

@@ -15,17 +15,26 @@
         },
         {
             "name": "Felipe Garrido"
+        },
+        {
+            "name": "Marcia Duran"
         }
     ],
-    "license": "Copyright (c) ZeroFox, 2024-2025",
-    "app_version": "1.2.0",
-    "utctime_updated": "2025-04-28T16:12:47.917498Z",
+    "license": "Copyright (c) ZeroFox, 2024-2026",
+    "app_version": "1.2.1",
+    "utctime_updated": "2026-06-23T00:00:00.000000Z",
     "package_name": "phantom_zerofoxthreatintelligence",
     "main_module": "zerofoxthreatintelligence_connector.py",
-    "min_phantom_version": "6.1.1",
+    "min_phantom_version": "6.1.0",
     "python_version": "3",
     "fips_compliant": false,
     "app_wizard_version": "1.0.0",
+    "pip_dependencies": {
+        "packages": [
+            "requests==2.32.3",
+            "beautifulsoup4==4.12.3"
+        ]
+    },
     "configuration": {
         "zerofox_username": {
             "description": "ZeroFox CTI Username",
@@ -503,5 +512,20 @@
             "output": [],
             "versions": "EQ(*)"
         }
-    ]
+    ],
+    "pip39_dependencies": {
+        "wheel": []
+    },
+    "pip313_dependencies": {
+        "wheel": [
+            {
+                "module": "requests",
+                "input_file": ""
+            },
+            {
+                "module": "beautifulsoup4",
+                "input_file": ""
+            }
+        ]
+    }
 }
